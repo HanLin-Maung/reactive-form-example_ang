@@ -1,0 +1,20 @@
+<p>courses works!</p>
+<!--because of using Tailwin css <ul
+  *ngFor="let employee of employees; trackBy: trackByEmpCode"
+  class="w-48 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+>
+  <li>
+    {{ employee.code }} {{ employee.name }} {{ employee.gender }}
+    {{ employee.salary }}
+  </li>
+</ul>
+
+<div *ngFor="let course of courses; trackBy: trackByCourses">
+  <h1>{{ course }}</h1>
+</div>
+
+<button (click)="getEmployees()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Refresh Employee</button><br />
+<button (click)="getNewCourses()">Refresh Courses</button><br />
+<button (click)="updateServiceCourses()">Update Courses</button><br />
+<button (click)="getpdatedServiceCourses()">Get Updated Courses</button><br />
+ -->
